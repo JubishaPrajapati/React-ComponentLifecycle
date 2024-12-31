@@ -7,6 +7,7 @@ import ShouldUpdate from "./UpdatingPhase/shouldCompUpdate";
 import CompWillUnmount from "./UnmountingPhase/compWillUnmount";
 import UpdatePhaseComp from "./UpdatingPhase/compDidUpdate";
 
+
 const App: React.FC = () => {
   //arrow func in ts
   return (
@@ -19,6 +20,11 @@ const App: React.FC = () => {
       <ShouldUpdate />
       <CompWillUnmount />
     </div>
+
+
+
+
+
   );
 };
 
